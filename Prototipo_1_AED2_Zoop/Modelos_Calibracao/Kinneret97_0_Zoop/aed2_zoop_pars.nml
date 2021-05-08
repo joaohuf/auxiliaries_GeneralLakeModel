@@ -1,0 +1,61 @@
+&zoop_params
+    zoop_param%zoop_name = 'zoo01', 'zoo02', 'zoo03', 'zoo04', 'zoo05',
+                           'zoo06', 'zoo07', 'zoo08', 'zoo09', 'zoo10',
+                           'zoo11', 'zoo12'
+    zoop_param%zoop_initial = 2.9, 4.3, 40, 40, 40, 40, 40, 40, 40, 40,
+                              16, 40
+    zoop_param%min_zoo = 0.1, 0.1, 0.1, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03,
+                         0.03, 0.1, 0.1
+    zoop_param%rgrz_zoo = 1.1, 1.67, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5,
+                          0.5, 1.5, 0.5
+    zoop_param%fassim_zoo = 0.9, 1, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9,
+                            0.9, 0.9
+    zoop_param%kgrz_zoo = 41.7, 58.3, 1, 1, 1, 1, 1, 1, 1, 1, 40, 1
+    zoop_param%theta_grz_zoo = 1.08, 1.08, 1.08, 1.08, 1.08, 1.08, 1.08,
+                               1.08, 1.08, 1.08, 1.08, 1.08
+    zoop_param%rresp_zoo = 0.08, 0.08, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3,
+                           0.3, 0.1, 0.3
+    zoop_param%rmort_zoo = 0.01, 0.01, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
+                           0.1, 0.01, 0.1
+    zoop_param%ffecal_zoo = 0.1, 0.05, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2,
+                            0.2, 0.2, 0.2
+    zoop_param%fexcr_zoo = 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7,
+                           0.7, 0.7, 0.7
+    zoop_param%ffecal_sed = 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15,
+                            0.15, 0.15, 0.15, 0.15
+    zoop_param%theta_resp_zoo = 1, 1, 1.08, 1.08, 1.08, 1.08, 1.08, 1.08,
+                                1.08, 1.08, 1.08, 1.08
+    zoop_param%tstd_zoo = 21.0, 21.0, 21.0, 21.0, 21.0, 21.0, 21.0, 21.0,
+                          21.0, 21.0, 21.0, 21.0
+    zoop_param%topt_zoo = 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22
+    zoop_param%tmax_zoo = 38, 34, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
+    zoop_param%saltfunc_zoo = 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+    zoop_param%smin_zoo = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+    zoop_param%smax_zoo = 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35
+    zoop_param%sint_zoo = 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+    zoop_param%inc_zoo = 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2,
+                         0.2, 0.2
+    zoop_param%ipc_zoo = 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01,
+                         0.01, 0.01, 0.01, 0.01
+    zoop_param%domin_zoo = 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+    zoop_param%cmin_grz_zoo = 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05,
+                              0.05, 0.05, 0.05, 0.05, 0.05
+    zoop_param%num_prey = 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+    zoop_param%prey(1)%zoop_prey = 'PHY_green', 'PHY_green', 'PHY_green',
+                                   'PHY_green', 'PHY_green', 'PHY_green',
+                                   'PHY_green', 'PHY_green', 'PHY_green',
+                                   'PHY_green', 'PHY_green', 'PHY_green'
+    zoop_param%prey(1)%pzoo_prey = 0.4, 0.4, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7,
+                                   0.7, 0.7, 0.7, 0.7
+    zoop_param%prey(2)%zoop_prey = 'PHY_diatom', 'PHY_diatom', 'PHY_diatom',
+                                   'PHY_diatom', 'PHY_diatom', 'PHY_diatom',
+                                   'PHY_diatom', 'PHY_diatom', 'PHY_diatom',
+                                   'PHY_diatom', 'PHY_diatom', 'PHY_diatom'
+    zoop_param%prey(2)%pzoo_prey = 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1,
+                                   0.1, 0.1, 0.1, 0.1
+    zoop_param%prey(3)%zoop_prey = 'OGM_poc', 'OGM_poc', 'OGM_poc', 'OGM_poc',
+                                   'OGM_poc', 'OGM_poc', 'OGM_poc', 'OGM_poc',
+                                   'OGM_poc', 'OGM_poc', 'OGM_poc', 'OGM_poc'
+    zoop_param%prey(3)%pzoo_prey = 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2,
+                                   0.2, 0.2, 0.2, 0.2
+/

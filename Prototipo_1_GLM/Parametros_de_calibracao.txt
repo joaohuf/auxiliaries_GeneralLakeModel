@@ -1,0 +1,6 @@
+Bloco	Nome	Valor	Bloco	Nome	Valor	Bloco	Nome	Valor
+light	Kw	3.5	meteorology	wind_factor	0.5	meteorology	lw_factor	1
+light	Kw	4	meteorology	wind_factor	0.6	meteorology	lw_factor	1
+light	Kw	3	meteorology	wind_factor	0.7
+light	Kw	2	meteorology	wind_factor	0.8	meteorology	lw_factor	1
+light	Kw	1	meteorology	wind_factor	0.9	meteorology	lw_factor	1
