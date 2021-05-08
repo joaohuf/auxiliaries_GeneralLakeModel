@@ -1,0 +1,31 @@
+!-----------------------------------------------------------
+! plots_window defines the size of the window used for
+! display of the plots
+!-----------------------------------------------------------
+
+&plots_window
+  width = 1200
+  height=  600
+/
+
+!-----------------------------------------------------------
+! plots
+!  nplots - the number of plots
+!  title  - list of titles, one for each plot
+!  min_z  - list of minimum values for the z component
+!  max_z  - list of maximum values for the z component
+!
+! For the moment really only the min/max values are worth
+! tinkering with
+!-----------------------------------------------------------
+
+&plots
+  nplots = 6
+  plot_width = 200
+  plot_height = 200
+
+  title = 'Temperature', 'Idade', 'DO',   'PHS_frp', 'NIT_amm', 'NIT_nit'
+  vars  =    'temp', 'TRC_age', 'OXY_oxy', 'PHS_frp', 'NIT_amm', 'NIT_nit'
+  min_z =     0, 0, 0, 0, 0, 0
+  max_z =    45, 8640000, 300, 3, 40, 40
+/

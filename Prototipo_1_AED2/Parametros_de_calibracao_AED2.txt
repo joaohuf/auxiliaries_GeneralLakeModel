@@ -1,0 +1,6 @@
+Bloco	Nome	Valor	Bloco	Nome	Valor	Bloco	Nome	Valor
+aed2_oxygen	oxy_initial	225	aed2_oxygen	Fsed_oxy	-20	aed2_nitrogen	amm_initial	12.7
+aed2_oxygen	oxy_initial	200	aed2_oxygen	Fsed_oxy	-10	aed2_nitrogen	amm_initial	11
+aed2_oxygen	oxy_initial	180	aed2_oxygen	Fsed_oxy	0			
+aed2_oxygen	oxy_initial	160	aed2_oxygen	Fsed_oxy	10	aed2_nitrogen	amm_initial	10
+aed2_oxygen	oxy_initial	140	aed2_oxygen	Fsed_oxy	20	aed2_nitrogen	amm_initial	9
